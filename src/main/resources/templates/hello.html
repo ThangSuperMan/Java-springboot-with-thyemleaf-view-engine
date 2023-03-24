@@ -1,0 +1,14 @@
+<html lang="en">
+  <head>
+    <title>Haha from Thymeleaf template engine</title>
+  </head>
+  <body>
+    <h1>Haha from Thymeleaf template engine</h1>
+    <div>
+      <div th:text="${message}"></div>
+      <div th:utext="${message}"></div>
+      <div>[[${message}]]</div>
+      <div>[(${message})]</div>
+    </div>
+  </body>
+</html>
